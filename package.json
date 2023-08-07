@@ -1,0 +1,37 @@
+{
+  "name": "decor_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-status": "^1.6.2",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.2",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashi2424/decor_server.git"
+  },
+  "author": "shashi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashi2424/decor_server/issues"
+  },
+  "homepage": "https://github.com/shashi2424/decor_server#readme"
+}
